@@ -1,0 +1,40 @@
+.side-drawer-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+}
+
+.side-drawer-item__info {
+  display: flex;
+  align-items: center;
+}
+
+.side-drawer-item__profile-image {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 100%;
+  margin-right: 0.5rem;
+}
+
+.side-drawer-item__stream-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.side-drawer-item__stream-info__name {
+  font-weight: 700;
+}
+
+.side-drawer-item__viewer-status {
+  display: flex;
+  align-items: center;
+}
+
+.side-drawer-item__online-symbol {
+  height: 0.5rem;
+  width: 0.5rem;
+  border-radius: 100%;
+  background: #eb0400;
+  margin-right: 0.3rem;
+}

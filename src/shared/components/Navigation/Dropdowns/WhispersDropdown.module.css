@@ -1,0 +1,72 @@
+.whispers-dropdown {
+  right: 19.5rem;
+  top: 2.8rem;
+  font-weight: 700;
+  color: #efeff1;
+  width: 25rem;
+}
+
+.whispers-dropdown__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3rem;
+  padding: 0.5rem;
+  border-bottom: 1px solid #313134;
+}
+
+.whispers-dropdown__header__options {
+  display: flex;
+}
+
+.whispers-dropdown__header__options button,
+.whispers-dropdown__header__toggle-status button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  height: 1.8rem;
+  width: 1.8rem;
+  border-radius: 5px;
+  background: none;
+  color: #efeff1;
+  display: inline;
+  cursor: pointer;
+}
+
+.whispers-dropdown__header__options button:hover,
+.whispers-dropdown__header__toggle-status button:hover {
+  background: #3d3d40;
+}
+
+.whispers-dropdown__body__search {
+  padding: 0.5rem;
+  height: 3rem;
+  border-bottom: 1px solid #313134;
+}
+
+.whispers-dropdown__body__search input {
+  background: #3d3d40;
+  color: #bebebf;
+  font-weight: 700;
+  padding: 0.5rem;
+  border-radius: 4px;
+  width: 100%;
+  border: none;
+}
+
+.whispers-dropdown__body__search input:hover {
+  outline: none;
+  box-shadow: inset 0 0 0 2px #58585a;
+}
+
+.whispers-dropdown__body__search input:focus {
+  outline: none;
+  box-shadow: inset 0 0 0 2px #a970ff;
+  background: #000000;
+}
+
+.whispers-dropdown__body__results {
+  height: 10rem;
+}

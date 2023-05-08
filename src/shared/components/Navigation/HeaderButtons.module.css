@@ -1,0 +1,74 @@
+.header-buttons {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-buttons li {
+  padding: 0.5rem;
+}
+
+.header-buttons li button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.header-buttons__notifications,
+.header-buttons__whispers,
+.header-buttons__user__guest {
+  background: none;
+  color: #efeff1;
+  height: 2rem;
+  border-radius: 5px;
+}
+
+.header-buttons__get-bits,
+.header-buttons__login {
+  background: #2a2a2d;
+  color: #efeff1;
+  height: 2rem;
+  border-radius: 5px;
+  padding: 0 0.5rem;
+}
+
+.header-buttons__get-bits span {
+  margin: 0.1rem;
+}
+
+.header-buttons__notifications:hover,
+.header-buttons__whispers:hover,
+.header-buttons__get-bits:hover,
+.header-buttons__login:hover,
+.header-buttons__user__guest:hover {
+  background: #3d3d40;
+}
+
+.header-buttons__signup {
+  background: #9147ff;
+  color: #efeff1;
+  height: 2.1rem;
+  border-radius: 5px;
+  padding: 0 0.5rem;
+}
+
+.header-buttons__signup:hover {
+  background: #772ce8;
+}
+
+.header-buttons__user__logged-in {
+  background: #d2d2e6;
+  color: #040404;
+  border-radius: 100%;
+  height: 2.1rem;
+  width: 2.1rem;
+}

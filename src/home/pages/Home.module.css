@@ -1,0 +1,6 @@
+.home {
+  position: relative;
+  top: 3rem;
+  left: 15rem;
+  width: calc(100% - 15rem);
+}

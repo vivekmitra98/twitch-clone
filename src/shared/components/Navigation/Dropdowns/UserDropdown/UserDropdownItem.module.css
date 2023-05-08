@@ -1,0 +1,20 @@
+.user-dropdown-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-weight: 400;
+  padding: 0.3rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.user-dropdown-item:hover {
+  background: #3d3d40;
+}
+
+.user-dropdown-item span {
+  margin-right: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,25 @@
+.section {
+  margin: 1rem;
+  border-bottom: 1px solid #313134;
+}
+
+.section__heading {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.section__heading__title {
+  color: #bf94ff;
+}
+
+.section__heading__title:hover {
+  color: #a970ff;
+  text-decoration: underline 1.5px solid #a970ff;
+  cursor: pointer;
+}
+
+.section__items {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}

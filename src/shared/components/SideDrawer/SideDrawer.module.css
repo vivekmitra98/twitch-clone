@@ -1,0 +1,44 @@
+.side-drawer::-webkit-scrollbar {
+  display: none;
+}
+
+.side-drawer {
+  background: #1f1f23;
+  color: #efefe4;
+  width: 15rem;
+  height: calc(100vh - 3rem);
+  position: fixed;
+  top: 3rem;
+  overflow: auto;
+  /* hide scrollbar */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;
+}
+
+.side-drawer__header {
+  font-weight: 700;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem 0.5rem 0.8rem;
+}
+
+.side-drawer__followed,
+.side-drawer__recommended {
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.side-drawer__followed__header,
+.side-drawer__recommended__header {
+  display: flex;
+  align-items: center;
+  padding: 0.4rem 0.5rem;
+  font-weight: 700;
+}
+
+.side-drawer__followed__list,
+.side-drawer__recommended__list {
+  padding: 0 0.5rem;
+}

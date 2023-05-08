@@ -1,0 +1,5 @@
+.channels {
+  position: relative;
+  left: 15rem;
+  width: calc(100% - 15rem);
+}

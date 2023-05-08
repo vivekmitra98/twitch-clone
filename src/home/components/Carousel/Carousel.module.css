@@ -1,0 +1,112 @@
+.carousel {
+  height: 22rem;
+  position: relative;
+
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* new */
+
+.arrow {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.3rem;
+  width: 2.3rem;
+  background: inherit;
+  top: 10rem;
+  font-weight: 700;
+  border-radius: 6px;
+}
+
+.arrow:hover {
+  background: #3d3d40;
+  cursor: pointer;
+}
+
+.arrow-left {
+  left: 4rem;
+}
+
+.arrow-right {
+  right: 4rem;
+}
+
+.left-enter {
+  opacity: 0;
+  right: 45%;
+  height: 14rem;
+  top: 4rem;
+  z-index: -100;
+}
+
+.left-enter.left-enter-active {
+  opacity: 1;
+  right: 35%;
+  height: 17rem;
+  top: 2.5rem;
+  z-index: -10;
+  transition: opacity 500ms linear, right 500ms linear, left 500ms linear,
+    height 500ms linear, top 500ms linear, z-index 500ms linear;
+}
+
+.left-leave {
+  opacity: 1;
+  left: 35%;
+  height: 17rem;
+  top: 2.5rem;
+  z-index: -10;
+}
+
+.left-leave.left-leave-active {
+  left: 45%;
+  opacity: 0;
+  height: 14rem;
+  top: 4rem;
+  z-index: -100;
+  transition: opacity 500ms linear, right 500ms linear, left 500ms linear,
+    height 500ms linear, top 500ms linear, z-index 500ms linear;
+}
+
+.right-enter {
+  opacity: 0;
+  left: 45%;
+  height: 14rem;
+  top: 4rem;
+  z-index: -100;
+}
+
+.right-enter.right-enter-active {
+  left: 35%;
+  opacity: 1;
+  height: 17rem;
+  top: 2.5rem;
+  z-index: -10;
+  transition: opacity 500ms linear, right 500ms linear, left 500ms linear,
+    height 500ms linear, top 500ms linear, z-index 500ms linear;
+}
+
+.right-leave {
+  right: 35%;
+  height: 17rem;
+  opacity: 1;
+  top: 2.5rem;
+  z-index: -10;
+}
+
+.right-leave.right-leave-active {
+  right: 35%;
+  opacity: 0;
+  height: 14rem;
+  top: 4rem;
+  z-index: -100;
+  transition: opacity 500ms linear, right 500ms linear, left 500ms linear,
+    height 500ms linear, top 500ms linear, z-index 500ms linear;
+}
+
+/* new */

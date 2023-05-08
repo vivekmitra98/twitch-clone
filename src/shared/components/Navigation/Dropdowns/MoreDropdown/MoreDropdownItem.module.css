@@ -1,0 +1,7 @@
+.more-dropdown-item {
+  margin: 0;
+  padding: 0;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+}

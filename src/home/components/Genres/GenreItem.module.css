@@ -1,0 +1,27 @@
+.genre-item {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: calc(20% - 1rem);
+  background: #772ce8;
+  color: #efeff1;
+  height: 3rem;
+  border-radius: 8px;
+}
+
+.genre-item:hover {
+  background: #5c16c5;
+  cursor: pointer;
+}
+
+.genre-item__label {
+  padding-left: 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.genre-item__symbol {
+  padding-right: 0.5rem;
+  transform: rotate(30deg);
+}
